@@ -81,13 +81,3 @@ Open the interactive Jupyter Notebook to step through the entire gateway impleme
 jupyter notebook llmGateway.ipynb
 ```
 
----
-
-## 🔍 Why This Project Stands Out (For Reviewers & HRs)
-
-This project avoids generic "Hello World" chatbot templates in favour of **real-world production design patterns**:
-
-* **Resilience First:** Demonstrates a deep understanding of cloud service failures and high-availability design via simple-shuffle load balancing and automated routing failover.
-* **Security Conscious:** Integrates active input sanitization, showing how compliance and privacy standards (like GDPR, HIPAA, or local data privacy laws) are practically enforced in LLM architectures.
-* **FinOps and Cost Control:** Features structured telemetry (latency, token calculation, exact USD billing) to address the primary financial concerns of running AI at scale.
-* **Modular Integration:** Designed with clean abstraction boundaries, making the gateway easy to plug into any existing LangChain or native Python application.
